@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.audiorecord.MainActivity">
+
+    <Button
+        android:id="@+id/btnRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹화" />
+
+    <Button
+        android:id="@+id/btnRecStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹화중지" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="재생" />
+
+    <Button
+        android:id="@+id/btnPlayStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="재생중지" />
+
+    <FrameLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
